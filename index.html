@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+       
+            <h1 id="title">Survey form</h1>
+        <div class="container">
+            <p id="description" >Let us know how we can improve freeCodeCamp</p>
+            <form action="" id="survey-form" class="form">
+         <div class="form__group">
+             <label id="name-label" for="name">* Name</label>
+             <input type="text" id="name" placeholder="Enter you name">
+         </div>
+
+         <div class="form__group">
+             <label id="email-label" for="email">* Email</label>
+             <input type="email" id="email" placeholder="Enter your email">
+         </div>
+
+         <div class="form__group">
+             <label id="number-label" for="number">* Age</label>
+             <input type="number" id="number" min="1" max="100" placeholder="Age">
+         </div>
+
+          <div class="form__group">
+<label for="dropdown">Which option best describes your current role?</label>
+             <select name="Role of education" id="dropdown">
+                 <option value="" disabled>Select an option</option>
+                 <option value=" student">Student</option>
+                 <option value="full time job">Full time job</option>
+                 <option value="full time learner">Full time learner</option>
+                 <option value="prefer not to say">Prefer not to say</option>
+                 <option value="other ">Other</option>
+             </select>
+</div>
+            <div class="form__group"> <label for="rating">* How likely is that you would recommend freeCodeCamp to a friend?</label>
+                <div class="form__sub-group">
+                    <label for="definitely">
+                        <input type="radio" name="rating" value="definitely" >
+                        Definitely</label>
+                    <label for="maybe">
+                        <input type="radio" name="rating" value="maybe" >
+                        Maybe</label>
+                    <label for="not sure"  >
+                        <input type="radio" name="rating" value="not sure" >
+                        Not sure</label>
+                </div>
+</div>
+            <div class="form__group">
+                <label for="like">What do you like most in FCC:</label>
+             <select name="like" id="like">
+            <option value="" disabled>Select an option</option>
+            <option value=" student">Challenges</option>
+            <option value="full time job">Projects</option>
+            <option value="full time learner">Community</option>
+            <option value="prefer not to say">Open source</option>
+             </select>
+            </div>
+             
+            <div class="form__group">
+                <label for="improvements">
+                    Things that should be improved in the future
+                (Check all that apply):
+                </label>
+                <div class="form__sub-group">
+                    <label for="Front-end Projects">
+                        <input type="checkbox" name="prefer" value="prefer">
+                        Front-end Projects
+                    </label>
+                    <label for="Back-end Projects">
+                        <input type="checkbox" name="prefer" value="prefer">
+                        Back-end Projects
+                    </label>
+                    <label for="Data Visualization">
+                        <input type="checkbox" name="prefer" value="prefer">
+                        Data Visualization
+                    </label>
+                    <label for="Challenges">
+                        <input type="checkbox" name="prefer" value="prefer">
+                        Challenges
+                    </label>
+                    <label for="Open Source Community">
+                        <input type="checkbox" name="prefer" value="prefer">
+                        Open Source Community
+                    </label>
+                    <label for="Gitter help rooms">
+                        <input type="checkbox" name="prefer" value="prefer">
+                        Gitter help rooms
+                    </label>
+                    <label for="Videos">
+                        <input type="checkbox" name="prefer" value="prefer">
+                        Videos
+                    </label>
+                    <label for="city Meetups">
+                        <input type="checkbox" name="prefer" value="prefer">
+                        City Meetups
+                    </label>
+                    <label for="wiki">
+                        <input type="checkbox" name="prefer" value="prefer">
+                        Wiki
+                    </label>
+                    <label for="Forum">
+                        <input type="checkbox" name="prefer" value="prefer">
+                        Forum
+                    </label>
+                    <label for="Additional Courses">
+                        <input type="checkbox" name="prefer" value="prefer">
+                        Additional Courses
+                    </label>
+                </div>
+            </div>
+
+            <div class="form__group">
+                <label for="comments">Any Comments or Suggestions?</label>
+                <textarea name="" id=""></textarea>
+            </div>
+
+            <div class="form__submit-group">
+                <input class="btn" type="Submit" value="Submit"> 
+            </div>
+            </form>
+        </div>
+       
+    </div>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
